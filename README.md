@@ -46,7 +46,7 @@ This is what you can edit in the config:
 
 Restart the server for config to update (I guess?)
 
-When in-game type "!voteban"/"!votekick"/"!votemute" to vote.
+When in-game type "!voteban"/"!votekick"/"!votemute" in the chat to vote.
 There's also "!votereset" command for admins? (refer to the original plugin).
 
 That's it. I hope someone finds this useful or maybe a proper programmer can improve it to work with a database and what not.
