@@ -9,7 +9,7 @@ MenuManagerCS2 (tested on v1.4.1)
 
 >DESCRIPTION
 
-Lets regular players on the server to vote for a ban/kick/mute of a certain player utuluzing default menu type from MenuManager plugin.
+Lets regular players on the server to vote for a ban/kick/mute of a certain player utilizing default menu type from MenuManager plugin.
 Admins with a flag @css/ban are exempt from being selected as a target vote.
 
 >FURTHER DESCRIPTION
