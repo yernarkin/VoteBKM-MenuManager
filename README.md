@@ -1,18 +1,18 @@
 # VoteBKM-MenuManager
 Modified version of VoteBKM cssharp plugin by  ebpnk/DoctorishHD to work with MenuManager plugin by NickFox007
 
->REQUIREMENTS<
+>REQUIREMENTS
 
 CounterStrikeSharp (tested on v1.0.346)
 Metamod (tested on build 1373)
 MenuManagerCS2 (tested on v1.4.1)
 
->DESCRIPTION<
+>DESCRIPTION
 
 Let's regular players on the server to vote for a ban/kick/mute of a certain player utuluzing default menu type from MenuManager plugin.
 Admins with a flag @css/ban are exempt from being selected as a target vote.
 
->FURTHER DESCRIPTION<
+>FURTHER DESCRIPTION
 
 I do not claim any ownership or any credits to this plugin
 
@@ -30,7 +30,7 @@ So bare this in mind if you encounter any issues. Guess I'll update this ReadMe 
 Also since I'm not a programmer I don't really know how to make it work with a database and how to make it so that you can translate the plugin in the config file. (Translation is already embedded into the .cs project (You can translate it there and build yourself))
 Theoretically all bans should be stored and checked in the generated config file. (No idea how optimal is that approach but it is what it is)
 
->HOW TO USE:<
+>HOW TO USE:
 
 Download as zip -> unzip -> choose a translation (en/ru) -> you only need the VoteBKM folder -> put it into ../game/csgo/addons/counterstrikesharp/plugins
 
