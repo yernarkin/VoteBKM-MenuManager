@@ -60,7 +60,18 @@ public class VoteBanPlugin : BasePlugin
         
         RegisterEventHandler<EventPlayerConnectFull>((@event, info) =>
         {
-            UnbanExpiredPlayers(); // Check and delete expired bans
+            UnbanExpiredPlayers(); // Проверяем и удаляем истекшие баны
+			
+			// NEW: IMMEDIATE KICK ON CONNECT
+			if (@event.Userid is CCSPlayerController player && player.IsValid && !player.IsBot)
+			{
+				var steamId = player.SteamID.ToString();
+				if (IsPlayerBanned(steamId))
+				{
+					Server.NextFrame(() =>  // Safe: kick next frame
+						Server.ExecuteCommand($"kickid {player.UserId}"));
+				}
+			}
             return HookResult.Continue;
         });
 
