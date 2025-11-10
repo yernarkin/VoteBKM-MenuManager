@@ -1,6 +1,12 @@
 # VoteBKM-MenuManager
 Modified version of VoteBKM cssharp plugin by  ebpnk/DoctorishHD to work with MenuManager plugin by NickFox007
 
+Requirements
+
+CounterStrikeSharp (tested on v1.0.346)
+Metamod (tested on build 1373)
+MenuManagerCS2 (tested on v1.4.1)
+
 Description
 
 I do not claim any ownership or any credits to this plugin
