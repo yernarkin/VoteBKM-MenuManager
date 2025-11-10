@@ -28,7 +28,7 @@ I'm not a programmer just changed some lines based on this example https://githu
 So bare this in mind if you encounter any issues. Guess I'll update this ReadMe when I actually use it on my server. The new menu works tho.
 
 Also since I'm not a programmer I don't really know how to make it work with a database and how to make it so that you can translate the plugin in the config file. (Translation is already embedded into the .cs project (You can translate it there and build yourself))
-Theoretically all bans should be stored and checked in the generated config file. (No idea how optimal is that approach but it is what it is)
+Theoretically all bans should be stored and checked in the generated config file called BannedPlayersConfig.json. (Should be created after first ban by the plugin) (No idea how optimal is that approach but it is what it is)
 
 >HOW TO USE:
 
